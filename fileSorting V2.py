@@ -2,9 +2,12 @@ import os
 import sys
 import shutil
 import re
+import fileNameChanger as NC
 
 #location of file
 os.chdir(r'C:\Users\jchun\Desktop\every-common-metric-nut-and-bolt-m2-through-m20-by-heller3d')
+
+NC.nameCreate()
 
 #pattern to search for. \w = letter and \d= digit
 namePattern=re.compile(r'\w\d+')
