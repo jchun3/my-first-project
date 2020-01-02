@@ -2,7 +2,7 @@ import os
 import sys
 import shutil
 import re
-import fileNameChanger as NC
+import folderNameChange as NC
 
 #location of file
 os.chdir(r'C:\Users\jchun\Desktop\every-common-metric-nut-and-bolt-m2-through-m20-by-heller3d')
